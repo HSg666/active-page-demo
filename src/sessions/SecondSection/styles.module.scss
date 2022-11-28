@@ -1,0 +1,25 @@
+.secondSection {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+
+    li {
+      color: white;
+    }
+  }
+  section {
+    padding: 16px;
+
+    img {
+      width: 100%;
+      padding-top: 16px;
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
+    }
+  }
+}
