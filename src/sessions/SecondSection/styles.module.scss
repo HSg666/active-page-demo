@@ -1,10 +1,21 @@
 .secondSection {
+  position: relative;
+  padding-top: 56px;
   ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 56px;
-
+    // padding-bottom: 56px;
+    // 必须得加上&符号，否则不会进入动态判断
+    &.isFixed {
+      position: fixed;
+      background-color: #e36c3e;
+    }
     li {
       color: white;
       position: relative;
@@ -33,6 +44,7 @@
     }
   }
   section {
+    scroll-margin: 56px;
     padding: 16px;
     h2 {
       color: white;
